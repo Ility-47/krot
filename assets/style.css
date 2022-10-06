@@ -1,0 +1,85 @@
+* {padding: 0;margin: 0;border: 0;}
+*, *:before, :after {-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block;}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 100%;}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;color: #9AA8b1;transition: .7s;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: inherit;}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url("../assets/fon.jpg");
+    overflow-y: hidden;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    cursor: url("../assets/1488.png"), default;
+    transition:all linear .7s;
+    display: grid;
+    grid-template-rows: 1fr  1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.wrapper:active{
+    cursor: url("../assets/cursor.png"), default;
+    transition:all linear .7s;
+}
+
+.nora{
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+
+
+.nora img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 100;
+}
+
+.krot{
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    transition: .7s;
+}
+.krot img{
+    width: 150px;
+    z-index: 5;
+}
+
+.pig{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/pig.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}
