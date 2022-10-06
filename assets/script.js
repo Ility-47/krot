@@ -29,10 +29,10 @@ krotolovka();
 
 
 function scrim() {
-    let pig = document.querySelector('.pig');
-    pig.style.display = 'block';
     let audio = new Audio();
     audio.src = 'assets/pizda.mp3';
     audio.autoplay = true;
-    console.log(audio.volume)
+    console.log(audio.volume);
+    let pig = document.querySelector('.pig');
+    pig.style.display = 'block';
 }
