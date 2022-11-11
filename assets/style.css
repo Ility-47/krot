@@ -24,7 +24,7 @@ body{
     background-color: black;
     background-image: url("../assets/fon.jpg");
     overflow-y: hidden;
-    background-size: 100%;
+    
 }
 
 .wrapper{
@@ -36,6 +36,7 @@ body{
     display: grid;
     grid-template-rows: 1fr  1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    background-size: 100%;
 
 }
 
