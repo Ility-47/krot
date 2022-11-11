@@ -24,6 +24,7 @@ body{
     background-color: black;
     background-image: url("../assets/fon.jpg");
     overflow-y: hidden;
+    background-size: 100%;
 }
 
 .wrapper{
