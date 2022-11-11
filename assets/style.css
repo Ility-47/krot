@@ -96,7 +96,7 @@ body{
     .wrapper{
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns:  1fr 1fr;
-    
+        padding-top: 100px;
     }
     
     .pig{
